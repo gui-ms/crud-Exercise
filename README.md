@@ -20,17 +20,40 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## CRUD Page Access
 
-To learn more about Next.js, take a look at the following resources:
+Open [http://localhost:3000/crud](http://localhost:3000/crud) to go to the project page.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Concepts Exercised
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project was created in order to better understand the nextJs framework, along with a few core concepts to web development.
+A few examples:
+- Routing in nextjs which uses a folder's name for its route construction;
+- Prop communication between father and child components;
+- State management;
+- Typescript's type enforcement;
+- Folder management for better organization and understanding for other users;
+- Partial types which allows empty values;
+- Type recasting;
+- Working with interface for prop organization;
+- Tailwind's exclusive keywords such as @apply;
 
-## Deploy on Vercel
+## Screenshots:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- User List:
+  ![image](https://github.com/user-attachments/assets/aa273bc9-d98e-4769-a726-87c5d513ac96)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- User Form:
+![image](https://github.com/user-attachments/assets/32172ee1-9c82-42c6-8570-5bb1a974058b)
+
+- Add new user:
+  ![image](https://github.com/user-attachments/assets/2e13d189-849b-4aaf-8364-51470bf236d7)
+  ![image](https://github.com/user-attachments/assets/5194d9d1-3498-46e1-bad4-635dad6ce446)
+
+- Remove User:
+  ![image](https://github.com/user-attachments/assets/a334e475-cff8-47a3-bb2a-b6c9d112287a)
+
+- Update Existing User:
+![image](https://github.com/user-attachments/assets/24f035e8-7d58-465b-9b66-016f69de5bc0)
+
+  
